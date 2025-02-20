@@ -1,0 +1,382 @@
+@font-face {
+    font-family: VeronaSerial;
+    src: url('Fonts/VeronaSerial.ttf');
+}
+
+$fontMain: "Montserrat", sans-serif;
+$fontDecorative: VeronaSerial, Helvetica, Arial, sans-serif;
+$darkBlue: #1e1e30;
+$periwinkleBlue: #9aa6fb;
+$iceWhite: #e7ebff;
+$coralPink: #f3638d;
+$lavender: #3973d3;
+$almostBlack: #3a3a3a;
+
+$itchCoral: #fa5c5c;
+$steamBlue: #00adee;
+
+html, body {
+    font-size: 1rem;
+    font-family: $fontMain;
+    color: $almostBlack;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-image: linear-gradient(#f76571, #b27dfb);
+    padding-bottom: 5rem;
+}
+
+h1, h2 {
+    font-family: $fontDecorative;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+    color: $iceWhite;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px $darkBlue;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 2rem;
+    }
+}
+
+a {
+    color: $coralPink;
+    font-weight: bold;
+
+    &:hover {
+        color: $darkBlue;
+    }
+
+    &.button {
+        display: inline-block;
+        background-color: $coralPink;
+        color: $iceWhite;
+        padding: 0.75rem 1rem;
+        width: max-content;
+        border-radius: 0.5rem;
+        text-align: center;
+        text-decoration: none;
+
+        &.itch {
+            background-color: $itchCoral;
+        }
+
+        &.steam {
+            background-color: $steamBlue;
+        }
+
+        &:hover {
+            background-color: $iceWhite;
+            color: $darkBlue !important; // override more specific below... probably can do this better
+        }
+    }
+}
+
+figure {
+    margin: 0;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.page {
+    width: 95%;
+    max-width: 60rem;
+    margin: 0 auto;
+    z-index: 999;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+.sidebar {
+    display: none;
+}
+
+#siteHeader {
+    height: 100vh;
+}
+
+#logoBanner {
+    width: 100%;
+    height: auto;
+    margin-top: min(25vh, 20rem);
+    image-rendering: pixelated;
+    user-select: none;
+
+    @media only screen and (max-width: 600px) {
+        margin-top: 6rem;
+    }
+}
+
+#homePageNavigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 1rem 0;
+    gap: 1rem;
+
+    li {
+        width: 25%;
+
+        a {
+            display: block;
+            padding: 1rem 2rem;
+            font-size: 1.75rem;
+            color: $iceWhite;
+            background-color: $darkBlue;
+            font-family: $fontDecorative;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 2px $periwinkleBlue;
+            letter-spacing: 4px;
+            border-radius: 0.5rem;
+
+            &:hover {
+                color: $darkBlue;
+                background-color: $iceWhite;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 900px) {
+        flex-wrap: wrap;
+
+        li {
+            width: calc(50% - 0.5rem);
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        padding-top: 0.5rem;
+
+        li {
+            width: 100%;
+
+            a {
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
+
+.actionBanner {
+    a {
+        background-color: $iceWhite;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        display: block;
+        text-decoration: none;
+        text-align: center;
+
+        &:hover {
+            background-color: $periwinkleBlue;
+            color: $darkBlue;
+        }
+    }
+}
+
+.ml-embedded {
+    margin-bottom: 2rem;
+
+    .ml-form-embedBody {
+        padding: 0 !important;
+    }
+}
+
+.linkCardContainer {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .linkCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $iceWhite;
+        border-radius: 0.5rem;
+        color: $darkBlue;
+        text-decoration: none;
+        width: 10rem;
+        padding: 1rem;
+        text-align: center;
+
+        i {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+
+            img {
+                height: auto;
+                width: 2.5rem;
+                margin-right: -0.25rem;
+            }
+        }
+
+        &:hover {
+            color: $darkBlue !important;
+            background-color: $iceWhite !important;
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+        gap: 1rem;
+
+        .linkCard {
+            width: 100%;
+            flex-direction: row;
+            justify-content: start;
+            align-items: center;
+            gap: 2rem;
+
+            i {
+                margin-bottom: 0;
+                width: 2rem;
+            }
+            
+            .linkCardText {
+                text-align: left;
+            }
+        }
+    }
+}
+
+.gameCard {
+
+    .gameCardHeader {
+        margin-bottom: 1rem;
+
+        h2 {
+            margin: 0;
+        }
+
+    }
+
+    .gameCardContents {
+        display: flex;
+        gap: 1rem;
+        align-items: start;
+
+        .titleCardImage {
+            width: 50%;
+            height: auto;
+            border-radius: 0.5rem;
+            object-fit: contain;
+        }
+
+        .description {
+            width: 50%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            flex-wrap: wrap;
+
+            .titleCardImage {
+                width: 100%
+            }
+
+            .description {
+                width: 100%;
+            }
+        }
+    }
+
+    .gameButtons {
+        width: 100%;
+        text-align: right;
+        gap: 0.5rem;
+        display: flex;
+        justify-content: end;
+        flex-wrap: wrap;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+        .gameButtons {
+
+            a.button {
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    }
+
+    .gameImageListContainer {
+        display: flex;
+        flex-wrap: wrap;
+
+        img {
+            width: 25%;
+            height: auto;
+            max-width: 100%;
+
+        }
+    }
+}
+
+
+.contentContainer, .innerContent {
+    background-color: $iceWhite;
+    padding: 2rem;
+    margin: 4rem 0;
+    border-radius: 2rem;
+
+    h1 {
+        color: $darkBlue;
+        text-shadow: none;
+        background-image: linear-gradient($coralPink, $periwinkleBlue);
+        color: transparent;
+        background-clip: text;
+        margin-top: 0;
+        font-size: 3rem;
+
+        @media only screen and (max-width: 600px) {
+            font-size: 2rem;
+        }
+    }
+
+    p:first-of-type, h2:first-of-type {
+        margin-top: 0;
+    }
+
+    .innerContent {
+        margin: 1rem 0 0;
+        background-color: $darkBlue;
+        color: $iceWhite;
+        border-radius: 1rem;
+
+        a:hover {
+            color: $periwinkleBlue;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        padding: 1rem;
+    }
+}
+
+#about {
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 1rem;
+    }
+}

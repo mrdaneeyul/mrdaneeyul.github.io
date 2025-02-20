@@ -1,0 +1,14 @@
+c:\Users\Daniel\.vscode\extensions\ruakr.ftp-kr-1.4.5
+
+[ftp-kr Reporting]
+platform: win32
+arch: x64
+
+[Error]
+message: c:\Users\Daniel\source\repos\Studio Spacefarer Website\Studio Spacefarer Website\wwwroot\app.css ftp-kr is not inited
+
+[Stack Trace]
+Error: c:\Users\Daniel\source\repos\Studio Spacefarer Website\Studio Spacefarer Website\wwwroot\app.css ftp-kr is not inited
+    at Function.fromFile (c:\Users\Daniel\.vscode\extensions\ruakr.ftp-kr-1.4.5\src\vsutil\ws.ts:162:27)
+    at runCommand (c:\Users\Daniel\.vscode\extensions\ruakr.ftp-kr-1.4.5\src\vsutil\cmd.ts:69:35)
+    at cw.h (file:///c:/Users/Daniel/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32825)

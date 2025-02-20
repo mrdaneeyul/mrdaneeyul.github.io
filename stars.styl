@@ -1,0 +1,36 @@
+
+random(min, max)
+  return floor(math(0, 'random')*(max - min + 1) + min)
+
+.stars
+  pointer-events none
+  user-select none
+  z-index 1
+  .starContainer
+    position fixed
+    animation stars linear infinite
+    z-index 1
+  for n in (0..100)
+    .starContainer:nth-child({n})
+      width random(3, 6px)
+      height @width
+      top (random(0, 200) / 2vh)
+      animation-delay (random(1, 100) / 5s / @width - 1000s)
+      animation-duration (random(200, 1000) / 5s / @width)
+      .star
+        width inherit
+        height inherit
+        background #ffffcf
+        z-index 1
+
+@media (prefers-reduced-motion)
+    .stars
+      display none
+
+@keyframes stars
+  from
+    transform translateX(0vw) translateZ(0)
+    will-change transform
+  to
+    transform translateX(100vw) translateZ(0)
+    will-change unset

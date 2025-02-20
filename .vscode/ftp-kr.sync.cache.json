@@ -1,0 +1,25 @@
+{
+  "ftp://if0_38246869@ftpupload.net": {
+    ".htaccess": {
+      "type": "-",
+      "size": 534,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".override": {
+      "type": "-",
+      "size": 0,
+      "lmtime": 0,
+      "modified": false
+    },
+    "DO NOT UPLOAD FILES HERE": {
+      "type": "-",
+      "size": 0,
+      "lmtime": 0,
+      "modified": false
+    },
+    "htdocs": {},
+    "studiospacefarer.com": {}
+  },
+  "$version": 1
+}
