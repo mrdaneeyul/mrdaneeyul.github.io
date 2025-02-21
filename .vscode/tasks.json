@@ -6,13 +6,16 @@
       "type": "shell",
       "command": "stylus",
       "args": [
-        "C:/Users/Daniel/source/repos/Studio Spacefarer Website/stars.styl",
+        "stars.styl",
         "-o",
-        "C:/Users/Daniel/source/repos/Studio Spacefarer Website/stars.css"
+        "stars.css"
       ],
       "group": {
         "kind": "build",
         "isDefault": true
+      },
+      "runOptions": {
+          "runOn": "folderOpen"
       },
       "problemMatcher": [],
       "detail": "Compile Stylus to CSS"
