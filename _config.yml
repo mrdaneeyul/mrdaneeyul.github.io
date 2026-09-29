@@ -1,0 +1,56 @@
+# Jekyll configuration for studiospacefarer.com
+#
+# GitHub Pages already builds this repo with Jekyll — it does so for every Pages site
+# unless a .nojekyll file is present, and there isn't one. Until now Jekyll passed every
+# file through untouched because none had front matter, so adding this file is additive:
+# index.html has no front matter, which makes it a static file, and static files never
+# get layouts applied. It continues to be served exactly as before.
+#
+# Do not add .nojekyll, and do not migrate to another static site generator.
+
+title: Studio Spacefarer
+description: >-
+  Devlog and games from Studio Spacefarer — a dad making games like The Waking Cloak
+  and ProtoDungeon in his spare time.
+url: "https://studiospacefarer.com"
+baseurl: ""
+lang: en
+
+# Posts live under /devlog/ so the listing page and the posts share a path.
+permalink: /devlog/:year/:month/:day/:title/
+
+# Both plugins are on the GitHub Pages supported-plugins allowlist, so they need no
+# custom build step or Action. RSS is required rather than optional: it is the most
+# durable non-social channel available, and the digest compiler reads from it.
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+# CSS lane: stylesheets are compiled LOCALLY and the compiled output is committed.
+# Jekyll treats the resulting .css files as ordinary static assets and never touches
+# them. The sources are excluded from the built site so only the compiled CSS ships.
+#
+# This is a deliberate choice between the two options — the alternative is moving fully
+# to Jekyll's _sass/ convention and not committing app.css. Do not half-do both: if
+# Jekyll ever also produced app.css the two would fight over the same output path.
+# Stylus is not supported by Jekyll at all, so stars.styl stays a local build regardless.
+exclude:
+  - app.scss
+  - app.css.map
+  - stars.styl
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - .vscode
+  - vendor

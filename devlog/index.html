@@ -1,0 +1,45 @@
+---
+layout: default
+title: Devlog
+description: Development updates from Studio Spacefarer — progress on ProtoDungeon, The Waking Cloak, and whatever else is in front of me.
+---
+<div class="devlogIndex contentContainer">
+    <h1>Devlog</h1>
+
+    <p class="devlogSubscribe">
+        <a href="{{ '/feed.xml' | relative_url }}">Subscribe via RSS</a>
+    </p>
+
+    {%- if site.posts.size == 0 %}
+    <p>No posts yet.</p>
+    {%- else %}
+    <ul class="devlogList">
+        {%- for post in site.posts %}
+        <li class="devlogListItem innerContent">
+            <a href="{{ post.url | relative_url }}">
+                {%- if post.image %}
+                <img class="devlogThumb" src="{{ post.image | relative_url }}"
+                     alt="{{ post.alt | default: post.title }}" loading="lazy">
+                {%- endif %}
+                <span class="devlogListTitle">{{ post.title }}</span>
+            </a>
+            <time class="devlogListDate" datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%-d %B %Y" }}
+            </time>
+        </li>
+        {%- endfor %}
+    </ul>
+    {%- endif %}
+</div>
+
+<!--
+  Deliberately a full list rather than jekyll-paginate.
+
+  jekyll-paginate v1 (the version on GitHub Pages' allowlist) is tied to paginating an
+  index.html, and pointing it at this directory risks it touching the site's landing page
+  — which must keep working unchanged. jekyll-paginate-v2, which is properly scoped, is
+  NOT on the Pages allowlist and would require a custom build Action.
+
+  At a semi-daily posting cadence a single list stays reasonable for a long time. Revisit
+  when the page actually gets unwieldy; the fix then is a build Action, not a config flag.
+-->

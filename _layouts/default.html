@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ page.description | default: site.description | strip_newlines | strip }}">
+
+    {%- assign page_title = page.title | default: site.title -%}
+    {%- if page.title -%}
+      {%- assign full_title = page.title | append: ' · ' | append: site.title -%}
+    {%- else -%}
+      {%- assign full_title = site.title -%}
+    {%- endif -%}
+    {%- assign social_image = page.image | default: '/Images/logo_banner.png' | absolute_url -%}
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    <meta property="og:title" content="{{ page_title }}">
+    <meta property="og:description" content="{{ page.description | default: site.description | strip_newlines | strip }}">
+    <meta property="og:image" content="{{ social_image }}">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="studiospacefarer.com">
+    <meta property="twitter:url" content="{{ page.url | absolute_url }}">
+    <meta name="twitter:title" content="{{ page_title }}">
+    <meta name="twitter:description" content="{{ page.description | default: site.description | strip_newlines | strip }}">
+    <meta name="twitter:image" content="{{ social_image }}">
+
+    <!-- Paths are absolute, not './'-relative like index.html: a post lives at
+         /devlog/2026/08/14/slug/, where a relative path would resolve to the wrong depth. -->
+    <link rel="stylesheet" href="{{ '/app.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/stars.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/simpleLightbox.css' | relative_url }}">
+    <link rel="shortcut icon" type="image/png" href="{{ '/Images/logo_v4.png' | relative_url }}">
+
+    <script src="https://kit.fontawesome.com/c678781b5b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="{{ '/simpleLightbox.js' | relative_url }}"></script>
+
+    {%- feed_meta -%}
+
+    <title>{{ full_title }}</title>
+</head>
+
+<body>
+    <div class="page">
+        <main>
+            <article>
+                <div id="siteHeader">
+                    <a href="{{ '/' | relative_url }}">
+                        <img id="logoBanner" src="{{ '/Images/logo_banner.png' | relative_url }}" alt="Studio Spacefarer logo banner">
+                    </a>
+                    <ul id="homePageNavigation">
+                        <!-- Absolute, unlike index.html's same-page '#games' anchors, so these
+                             work from a post page as well as from the landing page. -->
+                        <li><a href="{{ '/#games' | relative_url }}">Games</a></li>
+                        <li><a href="{{ '/devlog/' | relative_url }}">Devlog</a></li>
+                        <li><a href="{{ '/#links' | relative_url }}">Links</a></li>
+                        <li><a href="{{ '/#about' | relative_url }}">About</a></li>
+                    </ul>
+                </div>
+
+                {{ content }}
+
+            </article>
+        </main>
+    </div>
+
+    <!-- The landing page hard-codes 100 of these; a loop keeps the layout readable. -->
+    <div class="stars" aria-hidden="true">{% for i in (1..100) %}<div class="starContainer"><div class="star"></div></div>{% endfor %}</div>
+
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+        kofiWidgetOverlay.draw('spacefarer', {
+          'type': 'floating-chat',
+          'floating-chat.donateButton.text': 'support me!',
+          'floating-chat.donateButton.background-color': '#00b9fe',
+          'floating-chat.donateButton.text-color': '#fff'
+        });
+    </script>
+    <!-- 100% privacy-first analytics -->
+    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+</body>
+</html>

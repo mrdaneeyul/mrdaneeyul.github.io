@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="devlogPost contentContainer">
+    <p class="devlogBackLink"><a href="{{ '/devlog/' | relative_url }}">&larr; All devlog posts</a></p>
+
+    <h1>{{ page.title }}</h1>
+
+    <p class="devlogDate">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time>
+    </p>
+
+    {%- if page.image %}
+    <figure class="devlogMedia">
+        <!-- alt is required on every post this tool publishes, so it is always present.
+             The default is a fallback for posts imported or written by hand. -->
+        <img src="{{ page.image | relative_url }}"
+             alt="{{ page.alt | default: 'Screenshot from a Studio Spacefarer game.' }}">
+    </figure>
+    {%- endif %}
+
+    <div class="devlogBody">
+        {{ content }}
+    </div>
+
+    {%- if page.tags and page.tags.size > 0 %}
+    <ul class="devlogTags">
+        {%- for tag in page.tags %}
+        <li>{{ tag }}</li>
+        {%- endfor %}
+    </ul>
+    {%- endif %}
+
+    {%- if page.tumblr_url %}
+    <p class="devlogCrosspost">
+        Also posted on <a href="{{ page.tumblr_url }}" rel="noopener">Tumblr</a>.
+    </p>
+    {%- endif %}
+</div>

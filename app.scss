@@ -387,3 +387,117 @@ figure {
         border-radius: 1rem;
     }
 }
+
+.devlogIndex, .devlogPost {
+
+    .devlogSubscribe {
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.devlogList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.devlogListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    a {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        color: $iceWhite;
+        text-decoration: none;
+        min-width: 0;
+
+        &:hover {
+            color: $periwinkleBlue;
+        }
+    }
+
+    .devlogThumb {
+        width: 4rem;
+        height: 4rem;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        flex-shrink: 0;
+    }
+
+    .devlogListTitle {
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .devlogListDate {
+        color: $periwinkleBlue;
+        font-size: 0.85rem;
+        white-space: nowrap;
+    }
+
+    @media only screen and (max-width: 600px) {
+        flex-wrap: wrap;
+
+        .devlogListDate {
+            width: 100%;
+            text-align: right;
+        }
+    }
+}
+
+.devlogPost {
+
+    .devlogBackLink {
+        margin-top: 0;
+    }
+
+    .devlogDate {
+        color: $lavender;
+        font-weight: bold;
+        margin-top: -0.5rem;
+    }
+
+    .devlogMedia {
+        margin-bottom: 1.5rem;
+
+        img {
+            border-radius: 0.5rem;
+        }
+    }
+
+    .devlogBody img {
+        border-radius: 0.5rem;
+    }
+
+    .devlogTags {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 2rem 0 0;
+        padding: 0;
+
+        li {
+            background-color: $darkBlue;
+            color: $iceWhite;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 0.35rem 0.75rem;
+            border-radius: 1rem;
+        }
+    }
+
+    .devlogCrosspost {
+        font-style: italic;
+        color: $almostBlack;
+    }
+}
