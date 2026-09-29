@@ -26,7 +26,7 @@ layout: default
     {%- if page.tags and page.tags.size > 0 %}
     <ul class="devlogTags">
         {%- for tag in page.tags %}
-        <li>{{ tag }}</li>
+        <li><a href="{{ '/devlog/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a></li>
         {%- endfor %}
     </ul>
     {%- endif %}

@@ -1,0 +1,44 @@
+---
+layout: default
+title: Devlog tags
+description: Browse Studio Spacefarer devlog posts by tag.
+---
+<div class="devlogIndex contentContainer">
+    <h1>Tags</h1>
+
+    <p class="devlogBackLink"><a href="{{ '/devlog/' | relative_url }}">&larr; All devlog posts</a></p>
+
+    {%- assign tag_names = site.tags | sort %}
+    {%- if tag_names.size == 0 %}
+    <p>No tagged posts yet.</p>
+    {%- else %}
+    {%- for tag in tag_names %}
+    <h2 id="{{ tag[0] | slugify }}">{{ tag[0] }}</h2>
+    <ul class="devlogList">
+        {%- assign tagged_posts = tag[1] | sort: "date" | reverse %}
+        {%- for post in tagged_posts %}
+        <li class="devlogListItem innerContent">
+            <a href="{{ post.url | relative_url }}">
+                {%- if post.image %}
+                <img class="devlogThumb" src="{{ post.image | relative_url }}"
+                     alt="{{ post.alt | default: post.title }}" loading="lazy">
+                {%- endif %}
+                <span class="devlogListTitle">{{ post.title }}</span>
+            </a>
+            <time class="devlogListDate" datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%-d %B %Y" }}
+            </time>
+        </li>
+        {%- endfor %}
+    </ul>
+    {%- endfor %}
+    {%- endif %}
+</div>
+
+<!--
+  No plugin generates one page per tag (jekyll-archives / jekyll-tagging are not on
+  GitHub Pages' allowed-plugins list, and a custom generator plugin would need a GitHub
+  Actions build instead of Pages' own Jekyll build). This page sidesteps that entirely:
+  one page lists every tag via Jekyll's core `site.tags`, and each tag is just an anchor
+  on it. New tags need no new file — this page picks them up automatically.
+-->

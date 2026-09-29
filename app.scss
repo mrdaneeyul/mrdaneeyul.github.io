@@ -425,6 +425,17 @@ figure {
     }
 }
 
+.devlogIndex {
+    // Tag-page section headings, one per tag in site.tags — the plain post-listing
+    // page never has an h2, so this only ever applies on /devlog/tags/. The shared
+    // .contentContainer rule already zeroes the first heading's margin-top.
+    h2 {
+        font-size: 1.5rem;
+        margin: 2rem 0 1rem;
+        color: $darkBlue;
+    }
+}
+
 .devlogList {
     list-style: none;
     margin: 0;
@@ -513,7 +524,8 @@ figure {
         margin: 2rem 0 0;
         padding: 0;
 
-        li {
+        a {
+            display: inline-block;
             background-color: $darkBlue;
             color: $iceWhite;
             font-size: 0.8rem;
@@ -522,6 +534,12 @@ figure {
             letter-spacing: 1px;
             padding: 0.35rem 0.75rem;
             border-radius: 1rem;
+            text-decoration: none;
+
+            &:hover {
+                background-color: $iceWhite;
+                color: $darkBlue;
+            }
         }
     }
 
