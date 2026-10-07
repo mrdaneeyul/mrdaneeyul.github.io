@@ -22,9 +22,14 @@ description: Development updates from Studio Spacefarer — progress on ProtoDun
         <li class="devlogListItem innerContent" data-page="{{ devlog_page }}">
             <a href="{{ post.url | relative_url }}">
                 <span class="devlogListMain">
-                    {%- if post.image and post.video != true %}
-                    <img class="devlogThumb" src="{{ post.image | relative_url }}"
-                         alt="{{ post.alt | default: post.title }}" loading="lazy">
+                    {%- if post.image %}
+                        {%- if post.video %}
+                        <video class="devlogThumb" autoplay muted loop playsinline
+                               src="{{ post.image | relative_url }}"></video>
+                        {%- else %}
+                        <img class="devlogThumb" src="{{ post.image | relative_url }}"
+                             alt="{{ post.alt | default: post.title }}" loading="lazy">
+                        {%- endif %}
                     {%- endif %}
                     <span class="devlogListTitle">{{ post.title }}</span>
                 </span>

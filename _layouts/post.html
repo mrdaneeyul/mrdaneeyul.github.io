@@ -13,7 +13,9 @@ layout: default
     {%- if page.image %}
     <figure class="devlogMedia">
         {%- if page.video %}
-        <video controls playsinline src="{{ page.image | relative_url }}"></video>
+        <!-- No controls: a backfilled video is standing in for what was a GIF on Tumblr,
+             so it behaves like one — silent, looping, playing the moment it's visible. -->
+        <video autoplay muted loop playsinline src="{{ page.image | relative_url }}"></video>
         {%- else %}
         <!-- alt is required on every post this tool publishes, so it is always present.
              The default is a fallback for posts imported or written by hand. -->
