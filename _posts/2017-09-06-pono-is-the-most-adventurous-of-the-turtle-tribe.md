@@ -1,0 +1,19 @@
+---
+title: "Pono is the most adventurous of the turtle tribe (at least until Opo grows up), venturing far outside the swamp and…"
+date: 2017-09-06 18:30:21 +0000
+tags: ["devlog", "devblog", "ArtGallery", "gamedev", "indiedev", "indiedevhour", "indiegame", "npc", "turtle", "sprite", "game boy", "color", "game development", "game design", "pixel", "art", "pixelart", "pixel graphics", "retrogaming"]
+image: "/Images/devlog/2017-09-06-pono-is-the-most-adventurous-of-the-turtle-tribe.gif"
+alt: "**Pono** is the most adventurous of the turtle tribe (at least until Opo grows up), venturing far outside the swamp and into the rest of the isle. Unfortunately, Pono’s adventurous spirit don’t quite match up with his luck–he’s extremely accident prone. If you meet him during your travels, you’re much more likely to find him stuck on his back than actually doing any adventuring! But he’s a kind, helpful soul, and there’s something to be said for his sense of wonder and curiosity.  I drew the first version on Monday, completely forgot to update him yesterday, and scrambled to finish him up today during my lunch break.  I “condensed” him a bit–while the turtles from the turtle tribe are generally much larger than humans, I didn’t feel like the proportions were quite right. Turns out making him one pixel shorter worked pretty well!  The awful shading on his face is gone, and I got rid of the brown. We’re still technically one color over the limit for Game Boy Color sprites (as I’ve mentioned before, they could do four colors, but transparency counts as one of those colors). Most NPC sprites in the game will stick strictly to three colors for consistency and style, but the Game Boy *did* have a method to add more colors to a sprite: create a new sprite with the new color and overlay them. In this case, you could consider the “belly” of the shell as its own separate sprite.  Of course, this is shortcutted a bit–I’m not strictly sticking to the ten-sprites-per-row limit (never mind that the game’s base resolution is twice as wide), and I’m just making this guy one sprite instead of multiple. Modern amenities, right?"
+tumblr_url: "https://www.thewakingcloak.com/post/165051476766/pono-is-the-most-adventurous-of-the-turtle-tribe"
+tumblr_id: "165051476766"
+---
+
+**Pono** is the most adventurous of the turtle tribe (at least until Opo grows up), venturing far outside the swamp and into the rest of the isle. Unfortunately, Pono’s adventurous spirit don’t quite match up with his luck–he’s extremely accident prone. If you meet him during your travels, you’re much more likely to find him stuck on his back than actually doing any adventuring! But he’s a kind, helpful soul, and there’s something to be said for his sense of wonder and curiosity.
+
+I drew the first version on Monday, completely forgot to update him yesterday, and scrambled to finish him up today during my lunch break.
+
+I “condensed” him a bit–while the turtles from the turtle tribe are generally much larger than humans, I didn’t feel like the proportions were quite right. Turns out making him one pixel shorter worked pretty well!
+
+The awful shading on his face is gone, and I got rid of the brown. We’re still technically one color over the limit for Game Boy Color sprites (as I’ve mentioned before, they could do four colors, but transparency counts as one of those colors). Most NPC sprites in the game will stick strictly to three colors for consistency and style, but the Game Boy *did* have a method to add more colors to a sprite: create a new sprite with the new color and overlay them. In this case, you could consider the “belly” of the shell as its own separate sprite.
+
+Of course, this is shortcutted a bit–I’m not strictly sticking to the ten-sprites-per-row limit (never mind that the game’s base resolution is twice as wide), and I’m just making this guy one sprite instead of multiple. Modern amenities, right?
