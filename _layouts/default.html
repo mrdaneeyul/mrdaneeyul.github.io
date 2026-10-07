@@ -84,6 +84,16 @@
     <!-- The landing page hard-codes 100 of these; a loop keeps the layout readable. -->
     <div class="stars" aria-hidden="true">{% for i in (1..100) %}<div class="starContainer"><div class="star"></div></div>{% endfor %}</div>
 
+    <!-- Devlog post bodies are plain markdown, with no per-link way to set target="_blank",
+         so external links open in a new tab here instead. Internal/relative links (nav,
+         devlog list, tag anchors) never start with 'http' and are left alone. -->
+    <script>
+        $(function() {
+            $('a[href^="http"]').not('[href*="' + location.hostname + '"]')
+                .attr({ target: '_blank', rel: 'noopener noreferrer' });
+        });
+    </script>
+
     <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
     <script>
         kofiWidgetOverlay.draw('spacefarer', {
