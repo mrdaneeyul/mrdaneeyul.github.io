@@ -15,6 +15,20 @@ $almostBlack: #3a3a3a;
 $itchCoral: #fa5c5c;
 $steamBlue: #00adee;
 
+// Present for crawlers/screen readers, invisible on screen — the standard accessible way
+// to hide an element without `display: none`, which screen readers also skip.
+.srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 html, body {
     font-size: 1rem;
     font-family: $fontMain;
@@ -28,7 +42,7 @@ body {
     padding-bottom: 5rem;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: $fontDecorative;
 
     &:focus {
@@ -271,7 +285,7 @@ figure {
     .gameCardHeader {
         margin-bottom: 1rem;
 
-        h2 {
+        h3 {
             margin: 0;
         }
 
@@ -385,6 +399,29 @@ figure {
         width: 100%;
         height: auto;
         border-radius: 1rem;
+    }
+}
+
+// The four homepage sections demoted their own heading from <h1> to <h2> (a page gets
+// exactly one <h1> — see index.html), but should keep looking exactly like the big
+// gradient-text header every .contentContainer's h1 already gets below. Scoped to these
+// four IDs specifically, with a direct-child combinator: the shared h1 rule can't just be
+// widened to "h1, h2", because a devlog post's own body can contain a real ## subheading
+// (rendered as h2) and /devlog/tags/ renders one h2 per tag — neither should turn into a
+// giant gradient header just because it shares a .contentContainer with one.
+#games, #devlog, #links, #about {
+    > h2 {
+        color: $darkBlue;
+        text-shadow: none;
+        background-image: linear-gradient($coralPink, $periwinkleBlue);
+        color: transparent;
+        background-clip: text;
+        margin-top: 0;
+        font-size: 3rem;
+
+        @media only screen and (max-width: 600px) {
+            font-size: 2rem;
+        }
     }
 }
 
