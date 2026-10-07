@@ -388,6 +388,21 @@ figure {
     }
 }
 
+#devlog {
+    .devlogLatestMedia {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .devlogMoreLink {
+        text-align: right;
+        margin: 1rem 0 0;
+    }
+}
+
 .siteHeaderCompact {
     padding: 1.5rem 0 0;
 

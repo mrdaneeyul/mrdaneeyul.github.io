@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+---
+---
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -127,31 +129,31 @@
 
                 <div id="devlog" class="contentContainer">
                     <h1>Devlog</h1>
-                    <p id="devlogIntro">
-                        Here's the latest from the devlog! Read more and follow along at <a href="https://thewakingcloak.com" target="_blank">thewakingcloak.com</a>
-                    </p>
+                    {%- assign latest = site.posts.first %}
+                    {%- if latest %}
                     <div class="innerContent">
-                        <h2><a id="devlogPostTitle" href="https://thewakingcloak.com" target="_blank">Loading...</a></h2>
-
-                        <div id="latestPost">
-                            (this is coming from <a href="https://thewakingcloak.com" target="_blank">thewakingcloak.com</a>, so if things get weird you can always just go there)
-                        </div>
-                        <script>
-                            $(function() {
-                                $('#devlogIntro').hide();
-                                $.getJSON('https://thewakingcloak.tumblr.com/api/read/json?callback=?', function(response) {
-                                    const post = response.posts[0];
-                                    let postTitle = post["regular-title"];
-                                    if (postTitle === "")
-                                        postTitle = post.date;
-                                    $('#devlogPostTitle').attr('href', post.url).text(postTitle);
-                                    $('#latestPost').html(post["regular-body"]);
-
-                                    $('#devlogIntro').show();
-                                });
-                            })
-                        </script>
+                        {%- if latest.image %}
+                            {%- if latest.video %}
+                            <video class="devlogLatestMedia" autoplay muted loop playsinline
+                                   src="{{ latest.image | relative_url }}"></video>
+                            {%- else %}
+                            <img class="devlogLatestMedia" src="{{ latest.image | relative_url }}"
+                                 alt="{{ latest.alt | default: latest.title }}">
+                            {%- endif %}
+                        {%- endif %}
+                        <h2><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
+                        <p class="devlogDate">
+                            <time datetime="{{ latest.date | date_to_xmlschema }}">{{ latest.date | date: "%-d %B %Y" }}</time>
+                        </p>
+                        {%- assign excerpt_text = latest.excerpt | strip_html | strip_newlines | strip %}
+                        {%- if excerpt_text != "" %}
+                        <p>{{ excerpt_text | truncate: 220 }}</p>
+                        {%- endif %}
                     </div>
+                    {%- endif %}
+                    <p class="devlogMoreLink">
+                        <a href="{{ '/devlog/' | relative_url }}" class="button">More devlog posts &rarr;</a>
+                    </p>
                 </div>
 
                 <div id="links" class="contentContainer">

@@ -1,10 +1,14 @@
 # Jekyll configuration for studiospacefarer.com
 #
 # GitHub Pages already builds this repo with Jekyll — it does so for every Pages site
-# unless a .nojekyll file is present, and there isn't one. Until now Jekyll passed every
-# file through untouched because none had front matter, so adding this file is additive:
-# index.html has no front matter, which makes it a static file, and static files never
-# get layouts applied. It continues to be served exactly as before.
+# unless a .nojekyll file is present, and there isn't one.
+#
+# index.html carries empty front matter (--- / ---) and no layout: of its own. That's
+# enough to turn Liquid processing on — needed so its devlog teaser can pull
+# site.posts.first server-side instead of fetching it with client-side JS, the exact
+# anti-pattern (invisible to crawlers) this whole devlog migration was done to get away
+# from — while the page still renders as its own standalone document, untouched by
+# _layouts/default.html's header/nav chrome, which index.html already has its own copy of.
 #
 # Do not add .nojekyll, and do not migrate to another static site generator.
 
