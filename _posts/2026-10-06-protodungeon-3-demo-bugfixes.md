@@ -2,6 +2,8 @@
 title: "ProtoDungeon 3 demo bugfixes!!!"
 date: 2026-10-06 00:00:00 -0500
 tags: ["demo", "indie game", "pixel art", "gamedev", "protodungeon", "studio spacefarer"]
+tumblr_url: "https://www.thewakingcloak.com/post/829755142813384704/protodungeon-3-demo-bugfixes"
+tumblr_id: "829755142813384704"
 ---
 
 I didn't announce it yet (so I will soon! is this backwards? maybe!) but the [ProtoDungeon: Episode III demo](https://store.steampowered.com/app/1063700/ProtoDungeon_Episode_III/) is released and in the wild for anyone to play. Many, many thanks to my friends who early tested this and got themselves into some absolutely brutal situations (I think they enjoyed doing this tbh).
