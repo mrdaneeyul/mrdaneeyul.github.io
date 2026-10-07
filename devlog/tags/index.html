@@ -28,6 +28,8 @@ description: Browse Studio Spacefarer devlog posts by tag.
                         <img class="devlogThumb" src="{{ post.image | relative_url }}"
                              alt="{{ post.alt | default: post.title }}" loading="lazy">
                         {%- endif %}
+                    {%- else %}
+                    <img class="devlogThumb devlogThumbFallback" src="{{ '/Images/logo_v4.png' | relative_url }}" alt="">
                     {%- endif %}
                     <span class="devlogListTitle">{{ post.title }}</span>
                 </span>
