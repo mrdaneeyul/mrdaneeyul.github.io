@@ -12,10 +12,14 @@ layout: default
 
     {%- if page.image %}
     <figure class="devlogMedia">
+        {%- if page.video %}
+        <video controls playsinline src="{{ page.image | relative_url }}"></video>
+        {%- else %}
         <!-- alt is required on every post this tool publishes, so it is always present.
              The default is a fallback for posts imported or written by hand. -->
         <img src="{{ page.image | relative_url }}"
              alt="{{ page.alt | default: 'Screenshot from a Studio Spacefarer game.' }}">
+        {%- endif %}
     </figure>
     {%- endif %}
 

@@ -19,15 +19,17 @@ description: Browse Studio Spacefarer devlog posts by tag.
         {%- for post in tagged_posts %}
         <li class="devlogListItem innerContent">
             <a href="{{ post.url | relative_url }}">
-                {%- if post.image %}
-                <img class="devlogThumb" src="{{ post.image | relative_url }}"
-                     alt="{{ post.alt | default: post.title }}" loading="lazy">
-                {%- endif %}
-                <span class="devlogListTitle">{{ post.title }}</span>
+                <span class="devlogListMain">
+                    {%- if post.image and post.video != true %}
+                    <img class="devlogThumb" src="{{ post.image | relative_url }}"
+                         alt="{{ post.alt | default: post.title }}" loading="lazy">
+                    {%- endif %}
+                    <span class="devlogListTitle">{{ post.title }}</span>
+                </span>
+                <time class="devlogListDate" datetime="{{ post.date | date_to_xmlschema }}">
+                    {{ post.date | date: "%-d %B %Y" }}
+                </time>
             </a>
-            <time class="devlogListDate" datetime="{{ post.date | date_to_xmlschema }}">
-                {{ post.date | date: "%-d %B %Y" }}
-            </time>
         </li>
         {%- endfor %}
     </ul>

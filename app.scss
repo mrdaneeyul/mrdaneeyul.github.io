@@ -478,22 +478,30 @@ figure {
 }
 
 .devlogListItem {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    // The whole card is one link, not just the title text. .innerContent's own padding
+    // would otherwise sit outside the <a>, leaving a dead margin a click does nothing in
+    // — so that padding moves onto the link itself instead of the <li>.
+    padding: 0;
 
     a {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         gap: 1rem;
         color: $iceWhite;
         text-decoration: none;
-        min-width: 0;
+        padding: 2rem;
 
         &:hover {
             color: $periwinkleBlue;
         }
+    }
+
+    .devlogListMain {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        min-width: 0;
     }
 
     .devlogThumb {
@@ -515,10 +523,14 @@ figure {
         color: $periwinkleBlue;
         font-size: 0.85rem;
         white-space: nowrap;
+        flex-shrink: 0;
     }
 
     @media only screen and (max-width: 600px) {
-        flex-wrap: wrap;
+        a {
+            flex-wrap: wrap;
+            padding: 1rem;
+        }
 
         .devlogListDate {
             width: 100%;
@@ -542,13 +554,25 @@ figure {
     .devlogMedia {
         margin-bottom: 1.5rem;
 
-        img {
+        img, video {
             border-radius: 0.5rem;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
         }
     }
 
-    .devlogBody img {
+    .devlogBody img, .devlogBody video {
         border-radius: 0.5rem;
+    }
+
+    .devlogBody video {
+        width: 100%;
+        height: auto;
+        display: block;
     }
 
     .devlogTags {
