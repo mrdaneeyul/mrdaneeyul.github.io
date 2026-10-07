@@ -2,7 +2,7 @@
 title: "Hello i seem to be having a similar problem you"
 date: 2019-09-01 01:58:02 +0000
 image: "/Images/devlog/2019-09-01-hello-i-seem-to-be-having-a-similar-problem-you.png"
-alt: ""
+alt: "Hello i seem to be having a similar problem you"
 tumblr_url: "https://www.thewakingcloak.com/post/187408336649/hello-i-seem-to-be-having-a-similar-problem-you"
 tumblr_id: "187408336649"
 ---

@@ -3,7 +3,7 @@ title: "ProtoDungeon: Episode II"
 date: 2019-08-19 17:26:43 +0000
 tags: ["gamedev", "indiedev", "devlog", "devblog", "game development", "The Waking Cloak", "prequel", "ProtoDungeon"]
 image: "/Images/devlog/2019-08-19-protodungeon-episode-ii.gif"
-alt: ""
+alt: "ProtoDungeon: Episode II"
 tumblr_url: "https://www.thewakingcloak.com/post/187122665479/protodungeon-episode-ii"
 tumblr_id: "187122665479"
 ---

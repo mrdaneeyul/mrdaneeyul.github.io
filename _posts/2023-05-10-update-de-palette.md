@@ -3,7 +3,7 @@ title: "update de palette!"
 date: 2023-05-10 23:09:14 +0000
 tags: ["gamedev", "indiedev", "the waking cloak", "devlog", "devblog", "zelda", "game development", "protodungeon", "gamemaker", "pixelart"]
 image: "/Images/devlog/2023-05-10-update-de-palette.png"
-alt: ""
+alt: "update de palette!"
 tumblr_url: "https://www.thewakingcloak.com/post/716974487316398080/update-de-palette"
 tumblr_id: "716974487316398080"
 ---

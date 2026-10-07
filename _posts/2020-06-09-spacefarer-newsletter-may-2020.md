@@ -3,7 +3,7 @@ title: "Spacefarer Newsletter: May 2020"
 date: 2020-06-09 00:51:12 +0000
 tags: ["gamedev", "indiedev", "devlog", "protodungeon", "the waking cloak", "studio spacefarer", "gamemaker"]
 image: "/Images/devlog/2020-06-09-spacefarer-newsletter-may-2020.png"
-alt: ""
+alt: "Spacefarer Newsletter: May 2020"
 tumblr_url: "https://www.thewakingcloak.com/post/620404537079037952/spacefarer-newsletter-may-2020"
 tumblr_id: "620404537079037952"
 ---

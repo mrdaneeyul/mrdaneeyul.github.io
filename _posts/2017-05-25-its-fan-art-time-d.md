@@ -3,7 +3,7 @@ title: "It’s fan art time! :D"
 date: 2017-05-25 20:02:22 +0000
 tags: ["Fanart", "fan art", "pixel art", "pixel graphics", "pixel", "The Waking Cloak", "video games", "gamedev", "devlog", "devblog"]
 image: "/Images/devlog/2017-05-25-its-fan-art-time-d.jpg"
-alt: ""
+alt: "It’s fan art time! :D"
 tumblr_url: "https://www.thewakingcloak.com/post/161067547670/its-fan-art-time-d"
 tumblr_id: "161067547670"
 ---

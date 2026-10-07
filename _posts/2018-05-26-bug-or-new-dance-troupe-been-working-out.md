@@ -3,7 +3,7 @@ title: "Bug… or new dance troupe??"
 date: 2018-05-26 23:00:49 +0000
 tags: ["devlog", "devblog", "The Waking Cloak", "pixel art", "pixelart", "pixel graphics", "gamedev", "indiedev", "video games", "game development", "retrogaming", "zelda"]
 image: "/Images/devlog/2018-05-26-bug-or-new-dance-troupe-been-working-out.mp4"
-alt: ""
+alt: "Bug… or new dance troupe??"
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/174284477970/bug-or-new-dance-troupe-been-working-out"
 tumblr_id: "174284477970"

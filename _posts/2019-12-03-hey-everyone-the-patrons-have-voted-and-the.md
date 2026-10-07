@@ -2,7 +2,7 @@
 title: "Hey everyone!"
 date: 2019-12-03 16:25:38 +0000
 image: "/Images/devlog/2019-12-03-hey-everyone-the-patrons-have-voted-and-the.png"
-alt: ""
+alt: "Hey everyone!"
 tumblr_url: "https://www.thewakingcloak.com/post/189453665994/hey-everyone-the-patrons-have-voted-and-the"
 tumblr_id: "189453665994"
 ---

@@ -3,7 +3,7 @@ title: "Even though ProtoDungeon: Episode III is still planned to be in 2D, The 
 date: 2026-05-19 21:53:12 +0000
 tags: ["low poly", "gamedev", "indiedev", "starflower", "protodungeon", "the waking cloak", "devlog", "monogame", "video games", "pixel graphics", "games", "steam", "Youtube"]
 image: "/Images/devlog/2026-05-19-even-though-protodungeon-episode-iii-is-still.png"
-alt: ""
+alt: "Even though ProtoDungeon: Episode III is still planned to be in 2D, The Starflower Engine can handle the transition…"
 tumblr_url: "https://www.thewakingcloak.com/post/817079352122654720/even-though-protodungeon-episode-iii-is-still"
 tumblr_id: "817079352122654720"
 ---

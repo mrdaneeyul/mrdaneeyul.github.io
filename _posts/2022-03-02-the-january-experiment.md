@@ -3,7 +3,7 @@ title: "The January Experiment"
 date: 2022-03-02 15:11:44 +0000
 tags: ["gamedev", "indiedev", "tech demo", "protodungeon", "unity", "pixelart", "3d", "lowpoly"]
 image: "/Images/devlog/2022-03-02-the-january-experiment.gif"
-alt: ""
+alt: "The January Experiment"
 tumblr_url: "https://www.thewakingcloak.com/post/677625363026903040/the-january-experiment"
 tumblr_id: "677625363026903040"
 ---

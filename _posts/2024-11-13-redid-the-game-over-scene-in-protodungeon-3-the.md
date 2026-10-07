@@ -3,7 +3,7 @@ title: "Redid the Game Over scene in ProtoDungeon 3!"
 date: 2024-11-13 20:08:41 +0000
 tags: ["gamedev", "indiedev", "the waking cloak", "devlog", "devblog", "zelda", "game development", "pixel art", "protodungeon", "gamemaker"]
 image: "/Images/devlog/2024-11-13-redid-the-game-over-scene-in-protodungeon-3-the.webp"
-alt: ""
+alt: "Redid the Game Over scene in ProtoDungeon 3!"
 tumblr_url: "https://www.thewakingcloak.com/post/767063251136741376/redid-the-game-over-scene-in-protodungeon-3-the"
 tumblr_id: "767063251136741376"
 ---

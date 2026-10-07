@@ -3,7 +3,7 @@ title: "Testing a new method for tall grass :)"
 date: 2024-04-17 00:44:50 +0000
 tags: ["gamedev", "indiedev", "pixelart", "pixel graphics", "protodungeon", "the waking cloak", "gamemaker", "indiegamedev", "game development", "zelda", "pixel art", "indiegames", "devblog", "devlog"]
 image: "/Images/devlog/2024-04-17-testing-a-new-method-for-tall-grass.gif"
-alt: ""
+alt: "Testing a new method for tall grass :)"
 tumblr_url: "https://www.thewakingcloak.com/post/747964665106219009/testing-a-new-method-for-tall-grass"
 tumblr_id: "747964665106219009"
 ---

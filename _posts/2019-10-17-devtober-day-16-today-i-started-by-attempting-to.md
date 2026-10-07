@@ -3,7 +3,7 @@ title: "devtober day 16"
 date: 2019-10-17 02:27:55 +0000
 tags: ["devtober", "devlog", "devblog", "gamedev", "indiedev", "ProtoDungeon", "Zelda", "GameMaker"]
 image: "/Images/devlog/2019-10-17-devtober-day-16-today-i-started-by-attempting-to.mp4"
-alt: ""
+alt: "devtober day 16"
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/188398348531/devtober-day-16-today-i-started-by-attempting-to"
 tumblr_id: "188398348531"

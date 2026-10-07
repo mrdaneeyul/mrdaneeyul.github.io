@@ -3,7 +3,7 @@ title: "Droppin’ some trees so you can have your carbon dioxide processed whil
 date: 2026-07-29 19:20:52 +0000
 tags: ["wishlist wednesday", "wishlist", "protodungeon", "gamedev", "indiedev", "steam", "video games", "pixel graphics", "games", "devlog", "steam games", "pc games", "gaming"]
 image: "/Images/devlog/2026-07-29-droppin-some-trees-so-you-can-have-your-carbon.mp4"
-alt: ""
+alt: "Droppin’ some trees so you can have your carbon dioxide processed while you explore :)"
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/823502152969355264/droppin-some-trees-so-you-can-have-your-carbon"
 tumblr_id: "823502152969355264"

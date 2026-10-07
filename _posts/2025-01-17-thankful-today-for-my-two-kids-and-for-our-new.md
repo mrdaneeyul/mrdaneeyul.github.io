@@ -3,7 +3,7 @@ title: "Thankful today for my two kids and for our new baby."
 date: 2025-01-17 23:28:06 +0000
 tags: ["gamedev", "indiedev", "the waking cloak", "devlog", "devblog", "zelda", "game development", "pixel art", "protodungeon", "gamemaker"]
 image: "/Images/devlog/2025-01-17-thankful-today-for-my-two-kids-and-for-our-new.png"
-alt: ""
+alt: "Thankful today for my two kids and for our new baby."
 tumblr_url: "https://www.thewakingcloak.com/post/772964599671734272/thankful-today-for-my-two-kids-and-for-our-new"
 tumblr_id: "772964599671734272"
 ---

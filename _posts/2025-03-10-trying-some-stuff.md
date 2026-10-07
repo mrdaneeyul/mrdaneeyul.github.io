@@ -3,7 +3,7 @@ title: "Trying Some Stuff"
 date: 2025-03-10 10:00:56 +0000
 tags: ["gamedev", "devlog", "game development", "pixel art", "gamemaker", "indiedev", "social media", "protodungeon", "the waking cloak", "devblog", "zelda", "action adventure", "steam games", "steam", "video game", "video games", "gaming", "explore", "metroidvania", "marketing", "creativity", "art"]
 image: "/Images/devlog/2025-03-10-trying-some-stuff.gif"
-alt: ""
+alt: "Trying Some Stuff"
 tumblr_url: "https://www.thewakingcloak.com/post/777624859943583744/trying-some-stuff"
 tumblr_id: "777624859943583744"
 ---

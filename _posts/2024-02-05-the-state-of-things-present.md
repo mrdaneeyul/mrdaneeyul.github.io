@@ -3,7 +3,7 @@ title: "The State of Things Present"
 date: 2024-02-05 18:45:55 +0000
 tags: ["gamedev", "indiedev", "the waking cloak", "devlog", "devblog", "game development", "protodungeon", "gamemaker"]
 image: "/Images/devlog/2024-02-05-the-state-of-things-present.jpg"
-alt: ""
+alt: "The State of Things Present"
 tumblr_url: "https://www.thewakingcloak.com/post/741509699141320704/the-state-of-things-present"
 tumblr_id: "741509699141320704"
 ---

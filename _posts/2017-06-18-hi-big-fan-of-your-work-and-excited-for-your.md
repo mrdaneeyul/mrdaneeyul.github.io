@@ -2,7 +2,7 @@
 title: "Hi big fan of your work and excited for your"
 date: 2017-06-18 01:28:02 +0000
 image: "/Images/devlog/2017-06-18-hi-big-fan-of-your-work-and-excited-for-your.png"
-alt: ""
+alt: "Hi big fan of your work and excited for your"
 tumblr_url: "https://www.thewakingcloak.com/post/161947879749/hi-big-fan-of-your-work-and-excited-for-your"
 tumblr_id: "161947879749"
 ---

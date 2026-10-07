@@ -3,7 +3,7 @@ title: "NaNoWriMo Update"
 date: 2017-11-15 02:56:25 +0000
 tags: ["The Waking Cloak", "devlog", "devblog", "writing", "update", "nanowrimo"]
 image: "/Images/devlog/2017-11-15-nanowrimo-update.gif"
-alt: ""
+alt: "NaNoWriMo Update"
 tumblr_url: "https://www.thewakingcloak.com/post/167505120289/nanowrimo-update"
 tumblr_id: "167505120289"
 ---

@@ -3,7 +3,7 @@ title: "Hey y'all just a small bit of news that"
 date: 2025-05-30 14:11:39 +0000
 tags: ["steam games", "steam", "game", "steam deck", "gamemaker", "pixel art", "protodungeon", "game development", "zelda", "the waking cloak", "gamedev", "indiedev", "devlog", "devblog", "puzzle games", "legend of zelda", "game boy color", "game boy"]
 image: "/Images/devlog/2025-05-30-protodungeon-episode-ii-is-live-on-steam.gif"
-alt: ""
+alt: "Hey y'all just a small bit of news that"
 tumblr_url: "https://www.thewakingcloak.com/post/784978988157272064/protodungeon-episode-ii-is-live-on-steam"
 tumblr_id: "784978988157272064"
 ---

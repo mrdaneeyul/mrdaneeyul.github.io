@@ -3,7 +3,7 @@ title: "I am being forced to invent ladders"
 date: 2025-04-11 12:43:23 +0000
 tags: ["gamedev", "indiedev", "devlog", "game development", "pixel art", "protodungeon", "gamemaker", "zelda", "the waking cloak", "I am being forced to invent ladders", "trello", "ladder", "stairs", "orthographic", "climbing walls"]
 image: "/Images/devlog/2025-04-11-i-am-being-forced-to-invent-ladders.gif"
-alt: ""
+alt: "I am being forced to invent ladders"
 tumblr_url: "https://www.thewakingcloak.com/post/780534183480213504/i-am-being-forced-to-invent-ladders"
 tumblr_id: "780534183480213504"
 ---

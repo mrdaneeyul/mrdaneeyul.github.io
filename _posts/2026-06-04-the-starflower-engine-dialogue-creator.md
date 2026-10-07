@@ -3,7 +3,7 @@ title: "The Starflower Engine - Dialogue Creator"
 date: 2026-06-04 19:20:37 +0000
 tags: ["gamedev", "indiedev", "devlog", "the waking cloak", "protodungeon", "monogame", "gamemaker", "video games", "games", "pixel graphics"]
 image: "/Images/devlog/2026-06-04-the-starflower-engine-dialogue-creator.mp4"
-alt: ""
+alt: "The Starflower Engine - Dialogue Creator"
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/818519303657848832/the-starflower-engine-dialogue-creator"
 tumblr_id: "818519303657848832"

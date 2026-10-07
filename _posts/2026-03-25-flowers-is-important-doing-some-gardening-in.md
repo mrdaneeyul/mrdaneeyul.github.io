@@ -3,7 +3,7 @@ title: "Flowers is important!"
 date: 2026-03-25 21:48:36 +0000
 tags: ["gamedev", "indiedev", "the waking cloak", "devlog", "protodungeon", "steam", "steam games", "games", "video games", "monogame"]
 image: "/Images/devlog/2026-03-25-flowers-is-important-doing-some-gardening-in.mp4"
-alt: ""
+alt: "Flowers is important!"
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/812096229786976257/flowers-is-important-doing-some-gardening-in"
 tumblr_id: "812096229786976257"

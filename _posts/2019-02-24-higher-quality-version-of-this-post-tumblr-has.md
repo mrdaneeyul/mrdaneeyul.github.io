@@ -3,7 +3,7 @@ title: "Higher quality version of this post."
 date: 2019-02-24 21:27:52 +0000
 tags: ["The Waking Cloak", "gamedev", "indiedev", "devlog", "devblog", "game development", "pixel art", "pixel gif", "pixel", "pixel graphics", "retro", "retrogaming", "zelda", "legend of zelda", "game boy"]
 image: "/Images/devlog/2019-02-24-higher-quality-version-of-this-post-tumblr-has.mp4"
-alt: ""
+alt: "Higher quality version of this post."
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/183032286037/higher-quality-version-of-this-post-tumblr-has"
 tumblr_id: "183032286037"

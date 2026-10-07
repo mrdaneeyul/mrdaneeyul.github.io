@@ -3,7 +3,7 @@ title: "😈😈😈😈 you too can wishlist ProtoDungeon on Steam and join the
 date: 2024-07-20 12:11:06 +0000
 tags: ["gamedev", "indiedev", "steam", "the waking cloak", "game development", "protodungeon"]
 image: "/Images/devlog/2024-07-20-you-too-can-wishlist-protodungeon-on-steam.png"
-alt: ""
+alt: "😈😈😈😈 you too can wishlist ProtoDungeon on Steam and join the evil horde!"
 tumblr_url: "https://www.thewakingcloak.com/post/756523956354383872/you-too-can-wishlist-protodungeon-on-steam"
 tumblr_id: "756523956354383872"
 ---

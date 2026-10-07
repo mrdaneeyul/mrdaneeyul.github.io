@@ -3,7 +3,7 @@ title: "Baby… and the bills"
 date: 2025-01-14 19:08:08 +0000
 tags: ["financial assistance", "community aid", "zelda", "pixel art", "indiedev", "game development"]
 image: "/Images/devlog/2025-01-14-baby-and-the-bills.gif"
-alt: ""
+alt: "Baby… and the bills"
 tumblr_url: "https://www.thewakingcloak.com/post/772676453446877184/baby-and-the-bills"
 tumblr_id: "772676453446877184"
 ---

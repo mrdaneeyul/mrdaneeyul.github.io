@@ -3,7 +3,7 @@ title: "One of the things that had been blocking me (heh heh) was various collis
 date: 2023-05-06 20:26:50 +0000
 tags: ["gamedev", "game design", "game development", "indiedev", "the waking cloak", "devlog", "devblog", "protodungeon", "gamemaker", "pixelart", "zelda"]
 image: "/Images/devlog/2023-05-06-one-of-the-things-that-had-been-blocking-me-heh.gif"
-alt: ""
+alt: "One of the things that had been blocking me (heh heh) was various collision and 3D issues with the pushable blocks."
 tumblr_url: "https://www.thewakingcloak.com/post/716601882146226176/one-of-the-things-that-had-been-blocking-me-heh"
 tumblr_id: "716601882146226176"
 ---

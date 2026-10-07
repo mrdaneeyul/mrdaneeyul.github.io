@@ -3,7 +3,7 @@ title: "Some SNES Instrument Demos"
 date: 2017-08-15 13:01:10 +0000
 tags: ["devlog", "devblog", "gamedev", "indiedev", "indiegame", "snes", "music", "instruments", "gameaudio", "game music", "soundcloud", "super nintendo", "famicom", "16 bit", "demo", "lmms", "The Waking Cloak", "puppy", "dog"]
 image: "/Images/devlog/2017-08-15-some-snes-instrument-demos.jpg"
-alt: ""
+alt: "Some SNES Instrument Demos"
 tumblr_url: "https://www.thewakingcloak.com/post/164213313109/some-snes-instrument-demos"
 tumblr_id: "164213313109"
 ---

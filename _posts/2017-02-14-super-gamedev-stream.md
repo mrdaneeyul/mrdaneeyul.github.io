@@ -3,7 +3,7 @@ title: "SUPER GAMEDEV STREAM!"
 date: 2017-02-14 22:56:26 +0000
 tags: ["gamedev", "indiedev", "stream", "streaming", "GameMakerStudio2", "gamemaker", "Zelda", "TheWakingCloak", "The Waking Cloak", "pixel art", "pixel graphics", "pixel", "retrogaming", "retro"]
 image: "/Images/devlog/2017-02-14-super-gamedev-stream.gif"
-alt: ""
+alt: "SUPER GAMEDEV STREAM!"
 tumblr_url: "https://www.thewakingcloak.com/post/157250307884/super-gamedev-stream"
 tumblr_id: "157250307884"
 ---

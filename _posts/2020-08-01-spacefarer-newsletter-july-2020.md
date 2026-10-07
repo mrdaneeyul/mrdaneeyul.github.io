@@ -3,7 +3,7 @@ title: "Spacefarer Newsletter: July 2020"
 date: 2020-08-01 14:00:52 +0000
 tags: ["devlog", "devblog", "gamedev", "indiedev", "newsletter", "ProtoDungeon", "The Waking Cloak"]
 image: "/Images/devlog/2020-08-01-spacefarer-newsletter-july-2020.jpg"
-alt: ""
+alt: "Spacefarer Newsletter: July 2020"
 tumblr_url: "https://www.thewakingcloak.com/post/625255857522917376/spacefarer-newsletter-july-2020"
 tumblr_id: "625255857522917376"
 ---

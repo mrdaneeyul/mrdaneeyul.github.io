@@ -3,7 +3,7 @@ title: "Spacefarer Newsletter: June 2020"
 date: 2020-07-02 02:49:36 +0000
 tags: ["gamedev", "indiedev", "devlog", "devblog", "ProtoDungeon", "the waking cloak", "studio spacefarer", "game boy color", "zelda"]
 image: "/Images/devlog/2020-07-02-spacefarer-newsletter-june-2020.gif"
-alt: ""
+alt: "Spacefarer Newsletter: June 2020"
 tumblr_url: "https://www.thewakingcloak.com/post/622495716083892224/spacefarer-newsletter-june-2020"
 tumblr_id: "622495716083892224"
 ---

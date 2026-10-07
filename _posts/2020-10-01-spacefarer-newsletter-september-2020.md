@@ -3,7 +3,7 @@ title: "Spacefarer Newsletter: September 2020"
 date: 2020-10-01 01:17:08 +0000
 tags: ["gamedev", "indiedev", "devlog", "devblog", "ProtoDungeon", "GameMaker", "pixelart", "pixel graphics", "zelda"]
 image: "/Images/devlog/2020-10-01-spacefarer-newsletter-september-2020.gif"
-alt: ""
+alt: "Spacefarer Newsletter: September 2020"
 tumblr_url: "https://www.thewakingcloak.com/post/630734223020605440/spacefarer-newsletter-september-2020"
 tumblr_id: "630734223020605440"
 ---

@@ -3,7 +3,7 @@ title: "Postmortem/Smallnalysis - In which I make assumptions on why ProtoDungeo
 date: 2025-11-19 15:34:33 +0000
 tags: ["post mortem", "gamedev", "indiedev", "steam games", "steam", "indie games", "indie", "video games", "gamemaker"]
 image: "/Images/devlog/2025-11-19-what-shall-be-done.png"
-alt: ""
+alt: "Postmortem/Smallnalysis - In which I make assumptions on why ProtoDungeon Episodes I and II have low numbers"
 tumblr_url: "https://www.thewakingcloak.com/post/800657478712983552/what-shall-be-done"
 tumblr_id: "800657478712983552"
 ---

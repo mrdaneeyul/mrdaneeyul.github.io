@@ -3,7 +3,7 @@ title: "Wishlist Episode TWO on Steam"
 date: 2025-04-15 17:40:55 +0000
 tags: ["steam games", "steam deck", "video games", "legend of zelda", "sokoban", "gamedev", "indiedev", "pixel art", "protodungeon", "gamemaker", "graveyard", "nightmares", "gameboy color", "gameboy", "trailer", "wishlist", "coming soon"]
 image: "/Images/devlog/2025-04-15-wishlist-episode-two-on-steam.mp4"
-alt: ""
+alt: "Wishlist Episode TWO on Steam"
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/780915290466811904/wishlist-episode-two-on-steam"
 tumblr_id: "780915290466811904"

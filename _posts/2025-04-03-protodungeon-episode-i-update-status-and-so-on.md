@@ -3,7 +3,7 @@ title: "ProtoDungeon: Episode I - update status and so on"
 date: 2025-04-03 18:28:33 +0000
 tags: ["steam games", "puzzle games", "adventure", "video games", "update", "gamedev", "indiedev", "game development", "pixel art", "protodungeon", "gamemaker", "crt tv", "steam deck", "macintosh", "macos", "linux"]
 image: "/Images/devlog/2025-04-03-protodungeon-episode-i-update-status-and-so-on.png"
-alt: ""
+alt: "ProtoDungeon: Episode I - update status and so on"
 tumblr_url: "https://www.thewakingcloak.com/post/779831123459080192/protodungeon-episode-i-update-status-and-so-on"
 tumblr_id: "779831123459080192"
 ---

@@ -3,7 +3,7 @@ title: "## Face your fears!"
 date: 2024-07-24 18:08:58 +0000
 tags: ["indiedevhour", "gamedev", "indiedev", "ProtoDungeon", "the waking cloak", "Zelda", "gameboy"]
 image: "/Images/devlog/2024-07-24-face-your-fears-face-your-fears-haha.gif"
-alt: ""
+alt: "## Face your fears!"
 tumblr_url: "https://www.thewakingcloak.com/post/756908859296186368/face-your-fears-face-your-fears-haha"
 tumblr_id: "756908859296186368"
 ---

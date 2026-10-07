@@ -3,7 +3,7 @@ title: "Mini-update"
 date: 2017-05-03 18:28:50 +0000
 tags: ["indiedevhour", "indiedev", "gamedev", "game development", "video games", "games", "retrogaming", "devlog", "devblog", "The Waking Cloak", "TheWakingCloak"]
 image: "/Images/devlog/2017-05-03-mini-update.gif"
-alt: ""
+alt: "Mini-update"
 tumblr_url: "https://www.thewakingcloak.com/post/160271413104/mini-update"
 tumblr_id: "160271413104"
 ---

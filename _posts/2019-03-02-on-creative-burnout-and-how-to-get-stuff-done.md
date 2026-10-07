@@ -3,7 +3,7 @@ title: "On Creative Burnout and How to Get Stuff Done Without It"
 date: 2019-03-02 04:39:12 +0000
 tags: ["devlog", "devblog", "burnout", "game development", "planning", "project management", "i hope this helps"]
 image: "/Images/devlog/2019-03-02-on-creative-burnout-and-how-to-get-stuff-done.png"
-alt: ""
+alt: "On Creative Burnout and How to Get Stuff Done Without It"
 tumblr_url: "https://www.thewakingcloak.com/post/183155547994/on-creative-burnout-and-how-to-get-stuff-done"
 tumblr_id: "183155547994"
 ---

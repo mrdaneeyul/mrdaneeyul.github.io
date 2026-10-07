@@ -3,7 +3,7 @@ title: "I’ve been trying to figure out WHY depth sorting isn’t working for t
 date: 2022-03-27 10:20:02 +0000
 tags: ["protodungeon", "gamedev", "indiedev"]
 image: "/Images/devlog/2022-03-27-ive-been-trying-to-figure-out-why-depth-sorting.gif"
-alt: ""
+alt: "I’ve been trying to figure out WHY depth sorting isn’t working for the blocks, so I cobbled together a matrix for a 3D…"
 tumblr_url: "https://www.thewakingcloak.com/post/679871934178230272/ive-been-trying-to-figure-out-why-depth-sorting"
 tumblr_id: "679871934178230272"
 ---

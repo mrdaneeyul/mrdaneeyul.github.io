@@ -3,7 +3,7 @@ title: "Dear everyone,"
 date: 2019-11-02 21:02:51 +0000
 tags: ["screenshotsaturday", "indie", "game", "zelda", "protodungeon", "the waking cloak", "gamemaker", "pixel art"]
 image: "/Images/devlog/2019-11-02-dear-everyone-protodungeon-episode-ii-will.mp4"
-alt: ""
+alt: "Dear everyone,"
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/188772478432/dear-everyone-protodungeon-episode-ii-will"
 tumblr_id: "188772478432"

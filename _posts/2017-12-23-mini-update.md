@@ -3,7 +3,7 @@ title: "Mini-update!"
 date: 2017-12-23 16:00:44 +0000
 tags: ["gamedev", "indiedev", "indiegame", "devlog", "devblog", "screenshotsaturday", "TheWakingCloak", "pixelart", "pixel", "art", "animation", "update", "game design", "game development", "development"]
 image: "/Images/devlog/2017-12-23-mini-update.jpg"
-alt: ""
+alt: "Mini-update!"
 tumblr_url: "https://www.thewakingcloak.com/post/168858240918/mini-update"
 tumblr_id: "168858240918"
 ---

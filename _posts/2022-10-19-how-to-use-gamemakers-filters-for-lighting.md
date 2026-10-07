@@ -3,7 +3,7 @@ title: "How to use GameMaker’s filters for lighting!"
 date: 2022-10-19 17:00:29 +0000
 tags: ["GameMaker", "tutorial", "lighting", "pixel graphics", "ProtoDungeon", "the waking cloak", "game development", "pixel art", "gamedev", "indiedev", "zelda", "surfaces", "shaders", "filters"]
 image: "/Images/devlog/2022-10-19-how-to-use-gamemakers-filters-for-lighting.mp4"
-alt: ""
+alt: "How to use GameMaker’s filters for lighting!"
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/698560103896465408/how-to-use-gamemakers-filters-for-lighting"
 tumblr_id: "698560103896465408"

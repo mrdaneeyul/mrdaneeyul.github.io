@@ -3,7 +3,7 @@ title: "Debugblog: Darn Diagonals"
 date: 2020-12-31 15:55:04 +0000
 tags: ["gamedev", "devlog", "devblog", "debugging", "debugblog"]
 image: "/Images/devlog/2020-12-31-debugblog-darn-diagonals.gif"
-alt: ""
+alt: "Debugblog: Darn Diagonals"
 tumblr_url: "https://www.thewakingcloak.com/post/639033781874049024/debugblog-darn-diagonals"
 tumblr_id: "639033781874049024"
 ---

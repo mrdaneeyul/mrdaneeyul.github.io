@@ -3,7 +3,7 @@ title: "Progressing on the PD2 update is going well!"
 date: 2025-09-20 16:43:15 +0000
 tags: ["gamedev", "indiedev", "the waking cloak", "devlog", "devblog", "zelda", "game development", "pixel art", "protodungeon", "gamemaker"]
 image: "/Images/devlog/2025-09-20-progressing-on-the-pd2-update-is-going-well-life.png"
-alt: ""
+alt: "Progressing on the PD2 update is going well!"
 tumblr_url: "https://www.thewakingcloak.com/post/795225982621679616/progressing-on-the-pd2-update-is-going-well-life"
 tumblr_id: "795225982621679616"
 ---

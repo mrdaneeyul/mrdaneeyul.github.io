@@ -3,7 +3,7 @@ title: "A Terrible Guide to 2D Zelda-Like Rooms in GameMaker"
 date: 2017-06-07 01:03:36 +0000
 tags: ["game development", "game design", "video games", "games", "devlog", "devblog", "indiedev", "indie", "The Waking Cloak", "Zelda", "GameMaker", "GameMakerStudio2"]
 image: "/Images/devlog/2017-06-07-a-terrible-guide-to-2d-zelda-like-rooms-in.png"
-alt: ""
+alt: "A Terrible Guide to 2D Zelda-Like Rooms in GameMaker"
 tumblr_url: "https://www.thewakingcloak.com/post/161526465554/a-terrible-guide-to-2d-zelda-like-rooms-in"
 tumblr_id: "161526465554"
 ---

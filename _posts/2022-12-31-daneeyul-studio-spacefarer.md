@@ -2,7 +2,7 @@
 title: "What’s up everyone?"
 date: 2022-12-31 18:01:46 +0000
 image: "/Images/devlog/2022-12-31-daneeyul-studio-spacefarer.png"
-alt: ""
+alt: "What’s up everyone?"
 tumblr_url: "https://www.thewakingcloak.com/post/705177538025209856/daneeyul-studio-spacefarer"
 tumblr_id: "705177538025209856"
 ---

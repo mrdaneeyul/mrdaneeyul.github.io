@@ -3,7 +3,7 @@ title: "The Starflower Engine"
 date: 2026-03-11 16:34:28 +0000
 tags: ["gamedev", "indiedev", "devlog", "steam games", "steam", "indie", "monogame", "gamemaker", "video games", "indie games", "protodungeon", "the waking cloak", "game engine", "starflower", "Youtube"]
 image: "/Images/devlog/2026-03-11-the-starflower-engine.mp4"
-alt: ""
+alt: "The Starflower Engine"
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/810808108281724928/the-starflower-engine"
 tumblr_id: "810808108281724928"

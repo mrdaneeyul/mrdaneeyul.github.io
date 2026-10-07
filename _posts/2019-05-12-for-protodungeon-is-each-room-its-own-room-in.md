@@ -3,7 +3,7 @@ title: "For protodungeon is each room its own room in"
 date: 2019-05-12 00:57:35 +0000
 tags: ["gamedev", "Anonymous"]
 image: "/Images/devlog/2019-05-12-for-protodungeon-is-each-room-its-own-room-in.png"
-alt: ""
+alt: "For protodungeon is each room its own room in"
 tumblr_url: "https://www.thewakingcloak.com/post/184814650559/for-protodungeon-is-each-room-its-own-room-in"
 tumblr_id: "184814650559"
 ---

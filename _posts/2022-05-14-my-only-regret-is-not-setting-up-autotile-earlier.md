@@ -3,7 +3,7 @@ title: "My only regret is not setting up autotile earlier I was a fool, this is 
 date: 2022-05-14 14:42:20 +0000
 tags: ["gamemaker", "gamedev", "game development", "game design", "pixel graphics", "the waking cloak", "protodungeon", "aseprite"]
 image: "/Images/devlog/2022-05-14-my-only-regret-is-not-setting-up-autotile-earlier.gif"
-alt: ""
+alt: "My only regret is not setting up autotile earlier I was a fool, this is SO MUCH EASIER AHHHH"
 tumblr_url: "https://www.thewakingcloak.com/post/684237091876536320/my-only-regret-is-not-setting-up-autotile-earlier"
 tumblr_id: "684237091876536320"
 ---

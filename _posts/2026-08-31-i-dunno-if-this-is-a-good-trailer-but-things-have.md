@@ -3,7 +3,7 @@ title: "I dunno if this is a good trailer, but things have changed a lot, and I 
 date: 2026-08-31 18:53:20 +0000
 tags: ["steam games", "indie games", "pixel art", "zelda", "protodungeon", "just a little panic", "nbd", "I am clearly not a pro", "but what you get is what you getttttt"]
 image: "/Images/devlog/2026-08-31-i-dunno-if-this-is-a-good-trailer-but-things-have.mp4"
-alt: ""
+alt: "I dunno if this is a good trailer, but things have changed a lot, and I needed to give it a bit of a refresh… last…"
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/826490119900069888/i-dunno-if-this-is-a-good-trailer-but-things-have"
 tumblr_id: "826490119900069888"

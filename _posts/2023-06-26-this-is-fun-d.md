@@ -3,7 +3,7 @@ title: "this is fun :D"
 date: 2023-06-26 17:24:53 +0000
 tags: ["gamedev", "indiedev", "the waking cloak", "devlog", "devblog", "zelda", "game development", "protodungeon", "gamemaker", "pixelart"]
 image: "/Images/devlog/2023-06-26-this-is-fun-d.mp4"
-alt: ""
+alt: "this is fun :D"
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/721210880142000128/this-is-fun-d"
 tumblr_id: "721210880142000128"

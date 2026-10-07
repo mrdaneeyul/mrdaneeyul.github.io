@@ -3,7 +3,7 @@ title: "Steam Sale results???"
 date: 2025-10-27 14:42:12 +0000
 tags: ["steam sale", "steam games", "indiedev", "gamedev", "devlog", "game development", "protodungeon", "charts", "steam", "devblog"]
 image: "/Images/devlog/2025-10-27-steam-sale-results.png"
-alt: ""
+alt: "Steam Sale results???"
 tumblr_url: "https://www.thewakingcloak.com/post/798570455162355712/steam-sale-results"
 tumblr_id: "798570455162355712"
 ---

@@ -3,7 +3,7 @@ title: "Z-Height: how it’s done"
 date: 2020-10-21 19:41:46 +0000
 tags: ["gamemaker", "GameMaker Studio 2", "gamedev", "indiedev", "game development", "tutorial", "zelda", "top-down"]
 image: "/Images/devlog/2020-10-21-z-height-how-its-done.gif"
-alt: ""
+alt: "Z-Height: how it’s done"
 tumblr_url: "https://www.thewakingcloak.com/post/632615659024629760/z-height-how-its-done"
 tumblr_id: "632615659024629760"
 ---

@@ -3,7 +3,7 @@ title: "How did you pick your color palette for your game"
 date: 2017-09-10 13:00:53 +0000
 tags: ["gamedev", "indiedev", "art design", "color palette", "palette", "art", "pixel art"]
 image: "/Images/devlog/2017-09-10-how-did-you-pick-your-color-palette-for-your-game.gif"
-alt: ""
+alt: "How did you pick your color palette for your game"
 tumblr_url: "https://www.thewakingcloak.com/post/165184960552/how-did-you-pick-your-color-palette-for-your-game"
 tumblr_id: "165184960552"
 ---

@@ -3,7 +3,7 @@ title: "NaNoWriMo Report + Genogatchi"
 date: 2018-11-30 01:03:44 +0000
 tags: ["nanowrimo", "The Waking Cloak", "devlog", "devblog", "game development", "Genogatchi", "pixel art", "Monster Rancher", "chao", "sa2b", "procedural", "retrogaming"]
 image: "/Images/devlog/2018-11-30-nanowrimo-report-genogatchi.gif"
-alt: ""
+alt: "NaNoWriMo Report + Genogatchi"
 tumblr_url: "https://www.thewakingcloak.com/post/180636257559/nanowrimo-report-genogatchi"
 tumblr_id: "180636257559"
 ---

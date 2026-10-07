@@ -3,7 +3,7 @@ title: "ProtoDungeon: Episode II in one week!!!"
 date: 2025-05-23 18:32:12 +0000
 tags: ["gamemaker", "video game", "steam games", "steam", "retro aesthetic", "graveyard", "pixel art", "legend of zelda", "video games", "sokoban", "catacombs", "puzzle games", "adventure", "protodungeon", "gamedev", "indiedev", "the waking cloak"]
 image: "/Images/devlog/2025-05-23-protodungeon-episode-ii-in-one-week.gif"
-alt: ""
+alt: "ProtoDungeon: Episode II in one week!!!"
 tumblr_url: "https://www.thewakingcloak.com/post/784361201362714624/protodungeon-episode-ii-in-one-week"
 tumblr_id: "784361201362714624"
 ---

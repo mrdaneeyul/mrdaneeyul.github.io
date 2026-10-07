@@ -3,7 +3,7 @@ title: "Made a lil freecam so I can debug!"
 date: 2022-12-04 15:08:32 +0000
 tags: ["gamedev", "indiedev", "the waking cloak", "zelda", "game development", "pixel art", "protodungeon", "gamemaker", "pixel graphics"]
 image: "/Images/devlog/2022-12-04-made-a-lil-freecam-so-i-can-debug-this-lets-me.mp4"
-alt: ""
+alt: "Made a lil freecam so I can debug!"
 video: true
 tumblr_url: "https://www.thewakingcloak.com/post/702720520634908672/made-a-lil-freecam-so-i-can-debug-this-lets-me"
 tumblr_id: "702720520634908672"

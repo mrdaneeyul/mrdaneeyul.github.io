@@ -3,7 +3,7 @@ title: "Depth-sorting is solved! Z-tilting rules!"
 date: 2022-03-08 20:48:23 +0000
 tags: ["gamedev", "ProtoDungeon"]
 image: "/Images/devlog/2022-03-08-depth-sorting-is-solved-z-tilting-rules.gif"
-alt: ""
+alt: "Depth-sorting is solved! Z-tilting rules!"
 tumblr_url: "https://www.thewakingcloak.com/post/678190124352274432/depth-sorting-is-solved-z-tilting-rules"
 tumblr_id: "678190124352274432"
 ---
