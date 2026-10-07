@@ -1,0 +1,15 @@
+---
+title: "Loros has arrived with his trademark pedantry and snobbery!"
+date: 2017-08-09 18:30:47 +0000
+tags: ["gamedev", "indiedev", "indiedevhour", "devlog", "devblog", "gameboy", "gameboy color", "pixel", "pixel art", "pixelart", "pixel aesthetic", "retrogaming", "retro graphics", "aseprite", "npc", "dancer", "Zelda", "Dragon Warrior", "The Waking Cloak"]
+image: "/Images/devlog/2017-08-09-loros-has-arrived-with-his-trademark-pedantry-and.gif"
+alt: "**Loros** has arrived with his trademark pedantry and snobbery! But when he’s not talking pointless facts or faking a laugh, he’s dancing–which is something he’s actually quite good at. In hopes of passing on his illustrious knowledge and glorious skill, Loros has created a school of dance. Sadly, no one has yet taken him up on this offer (except Firula, but Loros considers her much too dramatic and inconsistent to take classes… and he’s not wrong).  One of the earliest NPC remakes I did. I enjoyed making him more dance-y since the original moved very little! An important tip for doing this (especially at low resolution like this) is to make whichever part of the body you want to give movement an odd number of pixels wide. Then move that body part one pixel left and right. In this case, the head! It looks like more in Loros’ case because his weird fringe thing is also moving, just in the opposite direction Giving him feet helped too, of course. :)  One thing that’s a bit unfortunate: I couldn’t keep the monocle. The only reason it worked originally was because it was a different color from his skin. Once I trimmed the colors down to the limit, it ended up looking like a weird blob/scar thing–difficult to “read.” Clarity is important."
+tumblr_url: "https://www.thewakingcloak.com/post/163992193684/loros-has-arrived-with-his-trademark-pedantry-and"
+tumblr_id: "163992193684"
+---
+
+**Loros** has arrived with his trademark pedantry and snobbery! But when he’s not talking pointless facts or faking a laugh, he’s dancing–which is something he’s actually quite good at. In hopes of passing on his illustrious knowledge and glorious skill, Loros has created a school of dance. Sadly, no one has yet taken him up on this offer (except Firula, but Loros considers her much too dramatic and inconsistent to take classes… and he’s not wrong).
+
+One of the earliest NPC remakes I did. I enjoyed making him more dance-y since the original moved very little! An important tip for doing this (especially at low resolution like this) is to make whichever part of the body you want to give movement an odd number of pixels wide. Then move that body part one pixel left and right. In this case, the head! It looks like more in Loros’ case because his weird fringe thing is also moving, just in the opposite direction Giving him feet helped too, of course. :)
+
+One thing that’s a bit unfortunate: I couldn’t keep the monocle. The only reason it worked originally was because it was a different color from his skin. Once I trimmed the colors down to the limit, it ended up looking like a weird blob/scar thing–difficult to “read.” Clarity is important.
