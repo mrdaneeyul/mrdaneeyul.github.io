@@ -36,4 +36,19 @@ layout: default
         Also posted on <a href="{{ page.tumblr_url }}" rel="noopener">Tumblr</a>.
     </p>
     {%- endif %}
+
+    {%- if page.previous or page.next %}
+    <nav class="devlogPostNav" aria-label="Other devlog posts">
+        {%- if page.previous %}
+        <a class="devlogPostNavOlder" href="{{ page.previous.url | relative_url }}">
+            &larr; {{ page.previous.title }}
+        </a>
+        {%- endif %}
+        {%- if page.next %}
+        <a class="devlogPostNavNewer" href="{{ page.next.url | relative_url }}">
+            {{ page.next.title }} &rarr;
+        </a>
+        {%- endif %}
+    </nav>
+    {%- endif %}
 </div>

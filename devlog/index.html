@@ -12,12 +12,14 @@ description: Development updates from Studio Spacefarer — progress on ProtoDun
         <a href="{{ '/devlog/tags/' | relative_url }}">Browse by tag</a>
     </p>
 
+    {%- assign page_size = 20 -%}
     {%- if site.posts.size == 0 %}
     <p>No posts yet.</p>
     {%- else %}
-    <ul class="devlogList">
+    <ul class="devlogList" id="devlogList" data-page-size="{{ page_size }}">
         {%- for post in site.posts %}
-        <li class="devlogListItem innerContent">
+        {%- assign devlog_page = forloop.index0 | divided_by: page_size %}
+        <li class="devlogListItem innerContent" data-page="{{ devlog_page }}">
             <a href="{{ post.url | relative_url }}">
                 {%- if post.image %}
                 <img class="devlogThumb" src="{{ post.image | relative_url }}"
@@ -31,17 +33,53 @@ description: Development updates from Studio Spacefarer — progress on ProtoDun
         </li>
         {%- endfor %}
     </ul>
+
+    <nav class="devlogPagination" id="devlogPagination" aria-label="Devlog pages">
+        <button type="button" class="devlogPageButton" id="devlogPagePrev">&larr; Newer</button>
+        <span class="devlogPageStatus" id="devlogPageStatus"></span>
+        <button type="button" class="devlogPageButton" id="devlogPageNext">Older &rarr;</button>
+    </nav>
     {%- endif %}
 </div>
 
 <!--
-  Deliberately a full list rather than jekyll-paginate.
+  Pagination is client-side rather than jekyll-paginate.
 
   jekyll-paginate v1 (the version on GitHub Pages' allowlist) is tied to paginating an
   index.html, and pointing it at this directory risks it touching the site's landing page
   — which must keep working unchanged. jekyll-paginate-v2, which is properly scoped, is
   NOT on the Pages allowlist and would require a custom build Action.
 
-  At a semi-daily posting cadence a single list stays reasonable for a long time. Revisit
-  when the page actually gets unwieldy; the fix then is a build Action, not a config flag.
+  Instead every post stays server-rendered in the DOM (so crawlers see the full list and
+  every post keeps its link equity — the whole point of moving off the old Tumblr widget),
+  and this script just hides all but the current page's items. No JS means every post shows
+  at once, which is a reasonable fallback, not a broken page.
 -->
+<script>
+    $(function() {
+        var $list = $('#devlogList');
+        if ($list.length === 0) return;
+
+        var pageSize = parseInt($list.data('page-size'), 10);
+        var $items = $list.find('.devlogListItem');
+        var pageCount = Math.max(1, Math.ceil($items.length / pageSize));
+        var current = 0;
+
+        function render() {
+            $items.hide().filter('[data-page="' + current + '"]').show();
+            $('#devlogPageStatus').text('Page ' + (current + 1) + ' of ' + pageCount);
+            $('#devlogPagePrev').prop('disabled', current === 0);
+            $('#devlogPageNext').prop('disabled', current === pageCount - 1);
+            $('#devlogPagination').toggle(pageCount > 1);
+        }
+
+        $('#devlogPagePrev').on('click', function() {
+            if (current > 0) { current--; render(); window.scrollTo(0, 0); }
+        });
+        $('#devlogPageNext').on('click', function() {
+            if (current < pageCount - 1) { current++; render(); window.scrollTo(0, 0); }
+        });
+
+        render();
+    });
+</script>

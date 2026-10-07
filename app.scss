@@ -425,6 +425,41 @@ figure {
     }
 }
 
+.devlogPagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+
+    .devlogPageButton {
+        font-family: $fontMain;
+        font-weight: bold;
+        font-size: 0.9rem;
+        background-color: $darkBlue;
+        color: $iceWhite;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        cursor: pointer;
+
+        &:hover:not(:disabled) {
+            background-color: $iceWhite;
+            color: $darkBlue;
+        }
+
+        &:disabled {
+            opacity: 0.4;
+            cursor: default;
+        }
+    }
+
+    .devlogPageStatus {
+        font-size: 0.9rem;
+        color: $almostBlack;
+    }
+}
+
 .devlogIndex {
     // Tag-page section headings, one per tag in site.tags — the plain post-listing
     // page never has an h2, so this only ever applies on /devlog/tags/. The shared
@@ -546,5 +581,34 @@ figure {
     .devlogCrosspost {
         font-style: italic;
         color: $almostBlack;
+    }
+
+    .devlogPostNav {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-top: 2rem;
+        padding-top: 1.5rem;
+        border-top: 2px solid $periwinkleBlue;
+
+        a {
+            flex: 1 1 0;
+            background-color: $darkBlue;
+            color: $iceWhite;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            padding: 0.75rem 1rem;
+            border-radius: 0.75rem;
+
+            &:hover {
+                background-color: $iceWhite;
+                color: $darkBlue;
+            }
+        }
+
+        .devlogPostNavNewer {
+            text-align: right;
+        }
     }
 }
