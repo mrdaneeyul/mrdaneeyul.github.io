@@ -3,7 +3,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ page.description | default: site.description | strip_newlines | strip }}">
+    {%- comment -%}
+      A post sets no description: of its own, so without this it would fall straight to
+      site.description — the generic site blurb — on every social share. Jekyll already
+      computes page.excerpt for every post (first paragraph, by default), so that's the
+      fallback here; only non-post pages without a description: (there are none left, but
+      a future one) fall all the way through to the site blurb.
+    {%- endcomment -%}
+    {%- assign page_description = page.description | default: page.excerpt | strip_html | default: site.description | strip_newlines | strip | truncate: 200 -%}
+    <meta name="description" content="{{ page_description }}">
 
     {%- assign page_title = page.title | default: site.title -%}
     {%- if page.title -%}
@@ -17,7 +25,7 @@
     <meta property="og:url" content="{{ page.url | absolute_url }}">
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     <meta property="og:title" content="{{ page_title }}">
-    <meta property="og:description" content="{{ page.description | default: site.description | strip_newlines | strip }}">
+    <meta property="og:description" content="{{ page_description }}">
     <meta property="og:image" content="{{ social_image }}">
 
     <!-- Twitter Meta Tags -->
@@ -25,7 +33,7 @@
     <meta property="twitter:domain" content="studiospacefarer.com">
     <meta property="twitter:url" content="{{ page.url | absolute_url }}">
     <meta name="twitter:title" content="{{ page_title }}">
-    <meta name="twitter:description" content="{{ page.description | default: site.description | strip_newlines | strip }}">
+    <meta name="twitter:description" content="{{ page_description }}">
     <meta name="twitter:image" content="{{ social_image }}">
 
     <!-- Paths are absolute, not './'-relative like index.html: a post lives at
