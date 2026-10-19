@@ -58,3 +58,8 @@ exclude:
   - README.md
   - .vscode
   - vendor
+
+# Jekyll skips dot-directories by default; .well-known must be published for Matrix
+# client delegation (/.well-known/matrix/client).
+include:
+  - .well-known
