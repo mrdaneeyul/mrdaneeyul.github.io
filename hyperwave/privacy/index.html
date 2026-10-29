@@ -1,0 +1,95 @@
+---
+layout: default
+title: Hyperwave privacy policy
+description: How Studio Spacefarer's Hyperwave server and its Discord bridge handle your information, and how to have it deleted.
+---
+{%- comment -%}
+  Copied from the Hyperwave repo's docs/privacy.md; change it there first. It's
+  written in Markdown and rendered here inside the devlog's post styling.
+{%- endcomment -%}
+{%- capture policy -%}
+# Studio Spacefarer on Hyperwave: privacy policy
+
+*Last updated 29 October 2026.*
+
+Studio Spacefarer runs a chat server at **studiospacefarer.com** using
+Hyperwave, a Matrix app. Some channels of the Studio Spacefarer Discord
+server are also open there through a bridge, so people on Discord and people
+on Hyperwave can talk to each other. This policy explains what the bridge,
+the server and our Discord bot do with your information.
+
+## Who's responsible
+
+Studio Spacefarer runs the server, the bridge and the Discord bot. For
+questions, or to ask for anything below, write to
+**admin@studiospacefarer.com**.
+
+## If you use Discord
+
+When you post in a bridged channel of the Studio Spacefarer Discord server,
+the bridge copies it to studiospacefarer.com so people on Hyperwave can read
+it. It copies:
+
+- your messages, edits, reactions, replies and threads, and the files you
+  attach;
+- your Discord name and profile picture, shown next to them;
+- your roles in the Discord server, shown as tags next to your name, and
+  which channels you can see, so Hyperwave can list who's in each channel.
+
+When a channel was first bridged, the bridge also brought in some of its
+earlier history.
+
+It doesn't copy your direct messages, your account details, or anything from
+channels the bot can't see. It never asks for your Discord login, and it
+never acts as you on Discord.
+
+## If you use Hyperwave
+
+Your account lives on studiospacefarer.com. The server keeps your account,
+your messages and files, and the devices you've signed in from, with their
+IP addresses, as Matrix servers do. Messages you send in a bridged channel
+are posted on Discord through the bot, with your Hyperwave name and picture,
+and Discord's own privacy policy applies to them there.
+
+Whether you're online isn't shared with Discord.
+
+## Where it's kept, and who sees it
+
+Everything is stored on Studio Spacefarer's own server. Bridged channels are
+never shared with other Matrix servers: ours doesn't federate. Only members
+can read them, as on Discord.
+
+Messages are used only to show them to members and to let members search
+them. They're never sold, never used for advertising, and never used to
+train any AI model.
+
+The bridge also keeps a record that links each Discord message to its copy
+here (IDs only, no text), so it can carry edits and deletions across.
+
+## Deleting
+
+- **A message you delete on Discord** is removed here too, with its edits
+  and reactions, straight away. Its files are deleted from the server soon
+  after, once an admin confirms.
+- **To be forgotten**, write to admin@studiospacefarer.com. Everything you
+  sent through the bridge is removed here, with your name and picture. Your
+  Discord account isn't touched, and anything new you post on Discord comes
+  across again.
+- **If the bot is removed** from the Discord server, or Discord stops it,
+  everything that came from Discord is removed here within a week.
+- **Leaving the Discord server** takes you out of the member lists and tags.
+  Your old messages stay, as they do on Discord.
+- **If you have a Hyperwave account**, you can delete your messages
+  yourself, or write to us to have your account and its data removed.
+
+You can also write to ask what we hold about you, or to correct it.
+
+## Changes
+
+We'll update this page, and its date, when anything here changes.
+{%- endcapture -%}
+<div class="devlogPost contentContainer">
+    <div class="devlogBody">
+        {{ policy | markdownify }}
+    </div>
+</div>
