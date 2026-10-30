@@ -10,7 +10,7 @@ description: How Studio Spacefarer's Hyperwave server and its Discord bridge han
 {%- capture policy -%}
 # Studio Spacefarer on Hyperwave: privacy policy
 
-*Last updated 29 October 2026.*
+*Last updated 30 October 2026.*
 
 Studio Spacefarer runs a chat server at **studiospacefarer.com** using
 Hyperwave, a Matrix app. Some channels of the Studio Spacefarer Discord
@@ -62,6 +62,12 @@ can read them, as on Discord.
 Messages are used only to show them to members and to let members search
 them. They're never sold, never used for advertising, and never used to
 train any AI model.
+
+To make search fast, the Hyperwave app keeps a search index on each
+member's own computer: the text of messages in the channels they're in,
+encrypted, readable only by that app. It follows deletions, so a message
+deleted here (or on Discord) leaves every index too, and it's deleted when
+a member leaves a channel, signs out, or turns it off in Settings, Privacy.
 
 The bridge also keeps a record that links each Discord message to its copy
 here (IDs only, no text), so it can carry edits and deletions across.
